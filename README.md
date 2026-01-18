@@ -12,7 +12,8 @@ Working demo
 
 ##  The Problem
 Modern developers are drowning in:
-- scattered monitoring across too many tools  
+- scattered monitoring across too many tools
+- Using way too many tokens on their LLM's and running out before shipping 
 - alerts that are noisy, unclear, and hard to prioritize to see what's really wrong  
 - time wasted investigating “what happened” for way too long instead of fixing it  
 
