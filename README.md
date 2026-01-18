@@ -1,4 +1,4 @@
-# 🗼 WatchTower — AI-Native Monitoring for Modern Teams
+# 🗼 WatchTower — Fewer bugs. Faster fixes.
 > **Build > Talk.** We shipped a working prototype in 24 hours.
 
 WatchTower is an **AGI-first monitoring + alerting workspace** that helps teams detect issues faster, understand them instantly, and take action without digging through logs, dashboards, or noisy tools.
