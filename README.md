@@ -5,8 +5,8 @@ WatchTower is an **AGI-first monitoring + alerting workspace** that helps teams 
 
 Working demo  
  Real-time signals → instant insights  
- AI that explains + recommends next actions  
- Built for scalability + startup potential
+ Fix your bugs instantly without debugging for too long
+ Using Overshoot + TheTokenCompany API's
 
 ---
 
