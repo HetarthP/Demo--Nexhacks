@@ -11,17 +11,17 @@ Working demo
 ---
 
 ##  The Problem
-Modern teams are drowning in:
+Modern developers are drowning in:
 - scattered monitoring across too many tools  
-- alerts that are noisy, unclear, and hard to prioritize  
-- time wasted investigating “what happened” instead of fixing it  
+- alerts that are noisy, unclear, and hard to prioritize to see what's really wrong  
+- time wasted investigating “what happened” for way too long instead of fixing it  
 
-**The result:** slower incident response, missed issues, and higher on-call stress.
+**The result:** slower incident response, missed issues, and higher on-call stress, leading to no code working for hours and hundreds of tokens wasted.
 
 ---
 
 ## 💡 The Insight (AGI-First)
-Instead of making humans interpret dashboards, **we built a system that understands context and summarizes what matters.**
+Instead of making humans interpret dashboards, **we built a system that understands context and summarizes what matters instantly as your coding in real-time.**
 
 WatchTower is designed like an *AI-native system*:
 - **detect** what changed  
@@ -31,18 +31,15 @@ WatchTower is designed like an *AI-native system*:
 
 ---
 
-## ✨ Core Features
+##  Core Features
 - **Real-Time Monitoring Feed**  
   Track signals/events in one place with clean grouping + severity.
-
-- **AI Incident Summaries**  
-  “What happened, why it matters, what to do next” in seconds.
 
 - **Smart Alert Triage (Noise Reduction)**  
   Clusters duplicates, highlights root-cause candidates, prioritizes impact.
 
 - **Actionable Recommendations**  
-  Next steps are clear, not vague — designed for quick decisions.
+  Next steps are clear, not vague — designed for quick decisions and efficient prompting.
 
 - **Demo-Ready Reliability**  
   Core flows work end-to-end and are built for a clean live demo.
@@ -51,20 +48,13 @@ WatchTower is designed like an *AI-native system*:
 
 ##  How It Works (High-Level)
 1. Signals flow into WatchTower (events / logs / synthetic demo streams)
-2. We classify + cluster them into incidents
-3. AI generates:
-   - incident title + severity  
-   - plain-English summary  
+2. We classify + cluster them into incidents using OverShoot API
+3. OverShoot generates:
+   - incidents and error logs, stack traces, etc from codebase 
    - likely causes / impacted services  
-   - recommended actions + next checks  
-4. UI presents everything as a simple operator dashboard
+   - recommended actions + next checks
+4. Overshoot then passes this to TheTokenCompany where they compress it all into a short, token saving prompt to then debug way faster.  
+4. UI presents everything as a simple operator dashboard easy for developers to use.
 
 > We prioritized an end-to-end working prototype over slides.
 
----
-
-##  Tech Stack
-- **Frontend:** (React / Next.js / Tailwind)  
-- **Backend:** (Node / Python / FastAPI / Express — update to match your repo)  
-- **AI:** (LLM + agent-style reasoning — update to match what you used)  
-- **Infra:** (Supabase / Postgres / Redis / WebSockets — optional)
