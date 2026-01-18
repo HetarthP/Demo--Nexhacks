@@ -3,14 +3,14 @@
 
 WatchTower is an **AGI-first monitoring + alerting workspace** that helps teams detect issues faster, understand them instantly, and take action without digging through logs, dashboards, or noisy tools.
 
-✅ Working demo  
-⚡ Real-time signals → instant insights  
-🤖 AI that explains + recommends next actions  
-🚀 Built for scalability + startup potential
+Working demo  
+ Real-time signals → instant insights  
+ AI that explains + recommends next actions  
+ Built for scalability + startup potential
 
 ---
 
-## 🎯 The Problem
+##  The Problem
 Modern teams are drowning in:
 - scattered monitoring across too many tools  
 - alerts that are noisy, unclear, and hard to prioritize  
